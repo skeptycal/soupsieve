@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.3
+
+- **FIX**: Fix pickling issue when compiled selector contains a `NullSelector` object. (#70)
+
 ## 1.6.2
 
 - **FIX**: Fix pattern compile issues on Python < 2.7.4.
